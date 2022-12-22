@@ -1,0 +1,39 @@
+html {
+    background-color: greenyellow;
+}
+
+body {
+    background: rgb(255, 255, 255, 0.7);
+  margin: 50px;
+  width: 1125px;
+  height: 700px;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Selector {
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 2vw;
+}
+
+.amount{
+    margin: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 2vw;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 2vw;
+    margin-left: 600px;
+}
