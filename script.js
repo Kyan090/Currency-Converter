@@ -15,65 +15,66 @@ function calculate() {
     let menu1 = inputMenuEl.value;
     let menu2 = outputMenuEl.value;
     let inputAmount = inputEl.value;
-    let outputAmount = outputEl.value;
+    let outputAmount = outputEl.innerHTML;
 
-    //Run this 
-    if (menu1 === "euro" && menu2 === "USD") {
-        euroToUSD(inputAmount);
-    } else if (menu1 === "yen" && menu2 === "USD") {
-        yenToUSD(inputAmount);
-    } else {
-        return;
+    // Run this 
+    // if (menu1 === "euro" && menu2 === "USD") {
+    //     euroToUSD(inputAmount);
+    // } else if (menu1 === "yen" && menu2 === "USD") {
+    //     yenToUSD(inputAmount);
+    // } else {
+    //     return;
+    // }
+    
+
+    
+    if (menu1 === "USD") {
+        console.log("USD")
+    } else if (menu1 === "euro") {
+        console.log("euro")
+    } else if (menu1 === "yen") {
+        console.log("yen")
+    }else if (menu1 === "pound") {
+        console.log("pound")
+    }else if (menu1 === "chinese") {
+        console.log("chinese")
+    }else if (menu1 === "Australian") {
+        console.log("Aust")
+    }else if (menu1 === "Canadian") {
+        console.log("Canada")
+    }else if (menu1 === "rupee") {
+        console.log("Rupee")
+    }else if (menu1 === "peso") {
+        console.log("Peso")
+    }else if (menu1 === "ruble") {
+        console.log("Ruble")
+    }else if (menu1 === "won") {
+        console.log("Won")
     }
-    
-    
-    // if (menu1 === "USD") {
-    //     console.log("USD")
-    // } else if (menu1 === "euro") {
-    //     console.log("euro")
-    // } else if (menu1 === "yen") {
-    //     console.log("yen")
-    // }else if (menu1 === "pound") {
-    //     console.log("pound")
-    // }else if (menu1 === "chinese") {
-    //     console.log("chinese")
-    // }else if (menu1 === "Australian") {
-    //     console.log("Austr")
-    // }else if (menu1 === "Canadian") {
-    //     console.log("Canada")
-    // }else if (menu1 === "rupee") {
-    //     console.log("Rupee")
-    // }else if (menu1 === "peso") {
-    //     console.log("Peso")
-    // }else if (menu1 === "ruble") {
-    //     console.log("Ruble")
-    // }else if (menu1 === "won") {
-    //     console.log("Won")
-    // }
 
-    // if (menu2 === "USD") {
-    //     console.log("USD")
-    // } else if (menu2 === "euro") {
-    //     console.log("euro")
-    // } else if (menu2 === "yen") {
-    //     console.log("yen")
-    // }else if (menu2 === "pound") {
-    //     console.log("pound")
-    // }else if (menu2 === "chinese") {
-    //     console.log("chinese")
-    // }else if (menu2 === "Australian") {
-    //     console.log("Austr")
-    // }else if (menu2 === "Canadian") {
-    //     console.log("Canada")
-    // }else if (menu2 === "rupee") {
-    //     console.log("Rupee")
-    // }else if (menu2 === "peso") {
-    //     console.log("Peso")
-    // }else if (menu2 === "ruble") {
-    //     console.log("Ruble")
-    // }else if (menu2 === "won") {
-    //     console.log("Won")
-    // }
+    if (menu2 === "USD") {
+        console.log("USD")
+    } else if (menu2 === "euro") {
+        console.log("euro")
+    } else if (menu2 === "yen") {
+        console.log("yen")
+    }else if (menu2 === "pound") {
+        console.log("pound")
+    }else if (menu2 === "chinese") {
+        console.log("chinese")
+    }else if (menu2 === "Australian") {
+        console.log("Aust")
+    }else if (menu2 === "Canadian") {
+        console.log("Canada")
+    }else if (menu2 === "rupee") {
+        console.log("Rupee")
+    }else if (menu2 === "peso") {
+        console.log("Peso")
+    }else if (menu2 === "ruble") {
+        console.log("Ruble")
+    }else if (menu2 === "won") {
+        console.log("Won")
+    }
 
 //     console.log(inputAmount);
 //     console.log(outputAmount);
